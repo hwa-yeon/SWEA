@@ -30,7 +30,9 @@ public class p1946 {
 					count++;
 				}
 			}
+			System.out.println();
 		}
 	}
 
 }
+
