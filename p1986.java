@@ -1,0 +1,22 @@
+package swea;
+
+import java.util.Scanner;
+
+public class p1986 {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		int T = sc.nextInt();
+		for(int t = 1; t <= T; t++) {
+			int N = sc.nextInt();
+			int result = 0;
+			for(int n = 1; n <= N; n++) {
+				if(n % 2 == 1) result += n;
+				else result -= n;
+			}
+			System.out.println("#" + t + " " + result);
+		}
+	}
+
+}
